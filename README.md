@@ -51,17 +51,17 @@ Run ```npm test``` to unit test scripts.  When committing and making a pull requ
 
 Exporting from playcanvas packages each asset within an individually assigned file with associated individual numeric identifiers such as ex-> 8668841/1/ - these numbers will be reassigned on individuals forked projects within playcanvas, so some initial navigation will be required to build familiarity within public/files/assets/...
 
-Within the playcanvas editor, these numeric identifiers are abstracted, and much of your work will take place within the playcanvas editor. 
+Within the playcanvas editor, these numeric identifiers are abstracted, and much of your work will take place within the playcanvas editor.
 
-Below are some of the most important commonly used file locations. 
+Below are some of the most important commonly used file locations.
 
- - Network.js - public/files/assets/8668841/... - this file sets up our socket.io
- 
- - collider.js - public/files/assets/8668838/... - this file sets up our player collisions
- 
- - teleportable.js - public/files/assets/8668839/... - this file puts players in the right spot on update
- 
- - start-screen.js - public/files/assets/8658762/... - this creates a new player
- 
- - movement.js - public/files/assets/8668840/... - this defines movevment of player and tracks other players
- 
+ - Network.js - public/files/assets/8668841/... - socket.io intiialization
+
+ - collider.js - public/files/assets/8668838/... - player collision logic
+
+ - teleportable.js - public/files/assets/8668839/... - player location initialization
+
+ - start-screen.js - public/files/assets/8658762/... - loading screen, and player creation logic
+
+ - movement.js - public/files/assets/8668840/... - core movement tracking logic
+
